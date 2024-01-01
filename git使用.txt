@@ -1,0 +1,25 @@
+git使用指南
+1.新建文件夹,使用git name_bash here
+2.输入git status命令,查看仓库的状态
+3.输入git init命令,初始化 Git 仓库
+4.输入git add hit.txt命令,将hit.txt文件添加到缓冲的Git仓库
+5.输入git status命令查看仓库状态(此时可以看到文件进入缓冲的git仓库)
+6.再输入git status命令查看仓库状态
+7.ssh连接到github后,传输文件到github,git push
+8.直接在github上操作更简单
+git command
+    git init (初始化git仓库)
+    git status (查看git仓库状态)
+    git add name_file (往缓冲的git仓库添加文件)
+    git commit -m "message" (提交的git仓库)
+    git branch (查看分支)
+    git branch branch_name (创建分支)
+    git checkout name_bash (进入分支)
+    git branch -d name_bash (删除分支)
+    git merge name_bash (合并分支)
+    git tag (给分支写上标签)
+    git push (上传)
+    git pull (下载)
+    git clone 地址 (复刻代码)
+    
+文章引用:"https://zhuanlan.zhihu.com/p/369486197"
