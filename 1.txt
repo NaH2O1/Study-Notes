@@ -1,9 +1,0 @@
-1.新建文件夹,使用git name_bash here
-2.输入git init命令,初始化 Git 仓库（如在之前使用过就不用使用了）
-3.git clone 地址 
-4.cd 项目文件夹
-5.将要上传的文件拖进去
-6.输入git status命令查看仓库状态
-7.输入git add hit.txt命令,将hit.txt文件添加到缓冲的Git仓库
-8.再输入git status命令查看仓库状态
-9.ssh连接到github后,传输文件到github,git push
