@@ -1,0 +1,14 @@
+1.记得要添加环境变量
+2.在pycharm中先使用定位，然后才能找到conda环境
+conda常用命令
+创建环境：codna create -n name python=3.9
+激活环境：codna activate name
+安装包：conda install package 
+一键安装：pip install -r requirements.txt
+查看环境：conda env list
+查看环境的package：conda list
+退出的环境:conda deactivate
+删除环境: conda remove --name env_name --all
+删除某一个包:conda remove --name env_name package_name
+导出环境：conda env export --name env_name > env_name.yml
+导入环境：conda env create -f env_name.yml
