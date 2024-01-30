@@ -1,0 +1,2 @@
+1.为防止报错，在训练和测试时要加上if __name__ == '__main__':
+2.yolo的图片要经行标注（标注用pip install labelimg -i https://pypi.tuna.tsinghua.edu.cn/simple）
