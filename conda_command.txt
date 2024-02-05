@@ -1,4 +1,4 @@
-1.安装时记得要添加环境变量
+1.记得要添加环境变量
 2.在pycharm中先使用定位，然后才能找到conda环境
 conda常用命令
 创建环境：codna create -n name python=3.9
@@ -12,3 +12,8 @@ conda常用命令
 删除某一个包:conda remove --name env_name package_name
 导出环境：conda env export --name env_name > env_name.yml
 导入环境：conda env create -f env_name.yml
+常用安装包：1.安装pytorch：conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+		2.安装jupyter：conda install ipykernel  
+		3.使用hubface：conda install transformers
+tensorboard --logdir logs
+python -m visdom.server
